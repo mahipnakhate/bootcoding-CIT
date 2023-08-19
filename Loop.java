@@ -1,8 +1,10 @@
 public class Loop{
 public static void main(String[] arg){
-int range=10;
-for(int i=1;i<=range;i++){
-System.out.println("  "+i);
+int i=10;
+while(i>=1){
+System.out.print(i);
+i--;
 }
 }
+
 }
